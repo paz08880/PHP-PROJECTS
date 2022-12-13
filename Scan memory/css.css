@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Patua One', cursive;
+}
+    body{
+        background-color:#1f1f1f;
+        width:100%;
+        height:100vh;
+}
+.container{
+    min-width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color:white;
+}
+.box{
+    margin-top:20px;
+    min-width:25rem;
+    min-height:91px;
+    background-color: #fff;
+    padding:0 25px;
+    border:1px solid black;
+    box-shadow:0 20px 25px rgba(0,0,0,0.8);
+    border-radius:200px;
+    position:relative;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.logo{
+    min-width:65px;
+    min-height:65px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+}
+.icon{
+    position:absolute;
+    font-size:28px;
+    color:white;
+    top:30px;
+    left:45px;
+}
+.title{
+    position:absolute;
+    top:10px;
+    font-size:18px;
+    left:120px;
+}
+.size-disk{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    padding:30px;
+}
+.size-disk p{
+    font-size: 14px;
+    color:#767676;
+    font-weight: 600;
+}
+.loading{
+    position:absolute;
+    left:120px;
+    top:67px;
+    display:flex;
+    align-items: center;
+}
+.loading::after{
+    content:"";
+    position:absolute;
+    width:9rem;
+    height:13px;
+    background-color: #1f1f1f;
+    border-radius: 23px;
+}
+
+.loading::before{
+    content:"";
+    width:16rem;
+    height:6px;
+    background: #b5b5b58c;
+    border-radius: 12px;
+    position: absolute;
+}
+
